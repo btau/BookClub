@@ -14,6 +14,16 @@
 		0D2876151C5960ED000665A4 /* BookClub2.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0D2876131C5960ED000665A4 /* BookClub2.xcdatamodeld */; };
 		0D2876171C5960ED000665A4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0D2876161C5960ED000665A4 /* Assets.xcassets */; };
 		0D28761A1C5960ED000665A4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D2876181C5960ED000665A4 /* LaunchScreen.storyboard */; };
+		0D2876241C5961A9000665A4 /* friends.json in Resources */ = {isa = PBXBuildFile; fileRef = 0D2876231C5961A9000665A4 /* friends.json */; };
+		0D2876271C5964DE000665A4 /* BookClubViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D2876261C5964DE000665A4 /* BookClubViewController.m */; };
+		0D28762A1C5964E5000665A4 /* BookListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D2876291C5964E5000665A4 /* BookListViewController.m */; };
+		0D28762D1C5964EC000665A4 /* CommentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D28762C1C5964EC000665A4 /* CommentViewController.m */; };
+		0D28767E1C5A57D8000665A4 /* Book+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D2876731C5A57D8000665A4 /* Book+CoreDataProperties.m */; };
+		0D28767F1C5A57D8000665A4 /* Book.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D2876751C5A57D8000665A4 /* Book.m */; };
+		0D2876801C5A57D8000665A4 /* Comment+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D2876771C5A57D8000665A4 /* Comment+CoreDataProperties.m */; };
+		0D2876811C5A57D8000665A4 /* Comment.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D2876791C5A57D8000665A4 /* Comment.m */; };
+		0D2876821C5A57D8000665A4 /* Reader+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D28767B1C5A57D8000665A4 /* Reader+CoreDataProperties.m */; };
+		0D2876831C5A57D8000665A4 /* Reader.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D28767D1C5A57D8000665A4 /* Reader.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +38,25 @@
 		0D2876161C5960ED000665A4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0D2876191C5960ED000665A4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0D28761B1C5960ED000665A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0D2876231C5961A9000665A4 /* friends.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = friends.json; sourceTree = "<group>"; };
+		0D2876251C5964DE000665A4 /* BookClubViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BookClubViewController.h; sourceTree = "<group>"; };
+		0D2876261C5964DE000665A4 /* BookClubViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BookClubViewController.m; sourceTree = "<group>"; };
+		0D2876281C5964E5000665A4 /* BookListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BookListViewController.h; sourceTree = "<group>"; };
+		0D2876291C5964E5000665A4 /* BookListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BookListViewController.m; sourceTree = "<group>"; };
+		0D28762B1C5964EC000665A4 /* CommentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommentViewController.h; sourceTree = "<group>"; };
+		0D28762C1C5964EC000665A4 /* CommentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommentViewController.m; sourceTree = "<group>"; };
+		0D2876721C5A57D8000665A4 /* Book+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Book+CoreDataProperties.h"; sourceTree = "<group>"; };
+		0D2876731C5A57D8000665A4 /* Book+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Book+CoreDataProperties.m"; sourceTree = "<group>"; };
+		0D2876741C5A57D8000665A4 /* Book.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Book.h; sourceTree = "<group>"; };
+		0D2876751C5A57D8000665A4 /* Book.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Book.m; sourceTree = "<group>"; };
+		0D2876761C5A57D8000665A4 /* Comment+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Comment+CoreDataProperties.h"; sourceTree = "<group>"; };
+		0D2876771C5A57D8000665A4 /* Comment+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Comment+CoreDataProperties.m"; sourceTree = "<group>"; };
+		0D2876781C5A57D8000665A4 /* Comment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Comment.h; sourceTree = "<group>"; };
+		0D2876791C5A57D8000665A4 /* Comment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Comment.m; sourceTree = "<group>"; };
+		0D28767A1C5A57D8000665A4 /* Reader+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Reader+CoreDataProperties.h"; sourceTree = "<group>"; };
+		0D28767B1C5A57D8000665A4 /* Reader+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Reader+CoreDataProperties.m"; sourceTree = "<group>"; };
+		0D28767C1C5A57D8000665A4 /* Reader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reader.h; sourceTree = "<group>"; };
+		0D28767D1C5A57D8000665A4 /* Reader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reader.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +73,18 @@
 		0D2875FB1C5960ED000665A4 = {
 			isa = PBXGroup;
 			children = (
+				0D2876721C5A57D8000665A4 /* Book+CoreDataProperties.h */,
+				0D2876731C5A57D8000665A4 /* Book+CoreDataProperties.m */,
+				0D2876741C5A57D8000665A4 /* Book.h */,
+				0D2876751C5A57D8000665A4 /* Book.m */,
+				0D2876761C5A57D8000665A4 /* Comment+CoreDataProperties.h */,
+				0D2876771C5A57D8000665A4 /* Comment+CoreDataProperties.m */,
+				0D2876781C5A57D8000665A4 /* Comment.h */,
+				0D2876791C5A57D8000665A4 /* Comment.m */,
+				0D28767A1C5A57D8000665A4 /* Reader+CoreDataProperties.h */,
+				0D28767B1C5A57D8000665A4 /* Reader+CoreDataProperties.m */,
+				0D28767C1C5A57D8000665A4 /* Reader.h */,
+				0D28767D1C5A57D8000665A4 /* Reader.m */,
 				0D2876061C5960ED000665A4 /* BookClub2 */,
 				0D2876051C5960ED000665A4 /* Products */,
 			);
@@ -60,15 +101,22 @@
 		0D2876061C5960ED000665A4 /* BookClub2 */ = {
 			isa = PBXGroup;
 			children = (
+				0D2876101C5960ED000665A4 /* Main.storyboard */,
 				0D28760A1C5960ED000665A4 /* AppDelegate.h */,
 				0D28760B1C5960ED000665A4 /* AppDelegate.m */,
 				0D28760D1C5960ED000665A4 /* ViewController.h */,
 				0D28760E1C5960ED000665A4 /* ViewController.m */,
-				0D2876101C5960ED000665A4 /* Main.storyboard */,
+				0D2876251C5964DE000665A4 /* BookClubViewController.h */,
+				0D2876261C5964DE000665A4 /* BookClubViewController.m */,
+				0D2876281C5964E5000665A4 /* BookListViewController.h */,
+				0D2876291C5964E5000665A4 /* BookListViewController.m */,
+				0D28762B1C5964EC000665A4 /* CommentViewController.h */,
+				0D28762C1C5964EC000665A4 /* CommentViewController.m */,
 				0D2876161C5960ED000665A4 /* Assets.xcassets */,
 				0D2876181C5960ED000665A4 /* LaunchScreen.storyboard */,
 				0D28761B1C5960ED000665A4 /* Info.plist */,
 				0D2876131C5960ED000665A4 /* BookClub2.xcdatamodeld */,
+				0D2876231C5961A9000665A4 /* friends.json */,
 				0D2876071C5960ED000665A4 /* Supporting Files */,
 			);
 			path = BookClub2;
@@ -143,6 +191,7 @@
 				0D28761A1C5960ED000665A4 /* LaunchScreen.storyboard in Resources */,
 				0D2876171C5960ED000665A4 /* Assets.xcassets in Resources */,
 				0D2876121C5960ED000665A4 /* Main.storyboard in Resources */,
+				0D2876241C5961A9000665A4 /* friends.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -153,10 +202,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0D2876821C5A57D8000665A4 /* Reader+CoreDataProperties.m in Sources */,
 				0D28760F1C5960ED000665A4 /* ViewController.m in Sources */,
+				0D2876831C5A57D8000665A4 /* Reader.m in Sources */,
+				0D2876801C5A57D8000665A4 /* Comment+CoreDataProperties.m in Sources */,
+				0D28767F1C5A57D8000665A4 /* Book.m in Sources */,
+				0D2876811C5A57D8000665A4 /* Comment.m in Sources */,
 				0D2876151C5960ED000665A4 /* BookClub2.xcdatamodeld in Sources */,
+				0D28767E1C5A57D8000665A4 /* Book+CoreDataProperties.m in Sources */,
+				0D28762D1C5964EC000665A4 /* CommentViewController.m in Sources */,
+				0D2876271C5964DE000665A4 /* BookClubViewController.m in Sources */,
 				0D28760C1C5960ED000665A4 /* AppDelegate.m in Sources */,
 				0D2876091C5960ED000665A4 /* main.m in Sources */,
+				0D28762A1C5964E5000665A4 /* BookListViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -305,6 +363,7 @@
 				0D2876201C5960ED000665A4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
